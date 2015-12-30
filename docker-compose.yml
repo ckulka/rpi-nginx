@@ -1,0 +1,15 @@
+nginx:
+  image: ckulka/rpi-nginx
+
+# Expose HTTP & HTTPS
+#  ports:
+#   - "80:80"
+#   - "443:443"
+
+# The NGINX_NO_UPDATE variable disabled the update of nginx on startup
+#  environment:
+#    - NGINX_NO_UPDATE
+
+# Mount a host volume into the container
+#  volumes:
+#    - /var/www/my-awesome-site:/var/www/html
