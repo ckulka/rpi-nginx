@@ -1,9 +1,6 @@
 This repository provides a Dockerfile for Nginx on Raspberry Pi.
 
 
-# Usage
-
-
 ## Build Docker Image
 
 ```
@@ -15,11 +12,13 @@ docker run --rm -it ckulka/nginx
 
 ## Environment Variables
 
-If the environment variable ```NGINX_NO_UPDATE``` is present, then Nginx will not be update prior to starting it, 
-as this saves startup time if necessary. Updating Nginx before running it is, however, the default setting.
+If the environment variable ```NGINX_NO_UPDATE``` is present, 
+then Nginx will not be updated prior to starting it, as this 
+saves startup time if necessary. 
+Updating Nginx before running it is, however, the default setting.
 
 ```
-docker run --rm -it -e NGINX_NO_UPDATE ckulka/rpi-nginx
+docker run --rm -it -e NGINX_NO_UPDATE= ckulka/rpi-nginx
 ```
 
 
