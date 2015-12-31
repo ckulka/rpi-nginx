@@ -2,8 +2,9 @@ Short: Nginx on Raspberry Pi
 
 
 This repository provides an image for Nginx on Raspberry Pi.
-For more details, see https://github.com/ckulka/rpi-nginx
 Automated build currently fail since Docker Hub currently doesn't support ARM platforms.
+
+For more details, see https://github.com/ckulka/rpi-nginx
 
  
 ### Environment Variables
