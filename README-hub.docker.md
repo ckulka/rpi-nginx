@@ -3,6 +3,8 @@ Short: Nginx on Raspberry Pi
 
 This repository provides an image for Nginx on Raspberry Pi.
 For more details, see https://github.com/ckulka/rpi-nginx
+Automated build currently fail since Docker Hub currently doesn't support ARM platforms.
+
  
 ### Environment Variables
 If the environment variable ```NGINX_NO_UPDATE``` is present,  then Nginx will not be updated prior to starting it, as this  saves startup time if necessary. 
