@@ -1,6 +1,3 @@
-Short: Nginx on Raspberry Pi
-
-
 This repository provides an image for Nginx on Raspberry Pi.
 Automated builds currently fail since Docker Hub currently doesn't support ARM platforms.
 
